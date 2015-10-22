@@ -1,0 +1,126 @@
+body{
+  background: #fff;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+main{
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 640px;
+  position: relative;
+  background: rgb(191,66,66);
+}
+
+#prefix{
+  padding: 10px 0;
+  background: #fff;
+  display: block;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+header, footer{
+  padding: 5px;
+  color: #fff;
+  background: green;
+  font-size: 1.5em;
+}
+
+header{
+  border-bottom: 1px solid #fff;
+}
+
+#content{
+  position: relative;
+  background: rgb(249, 249, 214);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav{
+  /*visibility: hidden;*/
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  padding: 5px 5px 5px 25px;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 25px;
+  background: url(../images/bullet.gif) no-repeat 0 center;
+  background-size: 10px 10px;
+}
+
+
+#meme{
+  float: right;
+  right: 0;
+  top: 0;
+  /*max-height: 100%;*/
+  max-width: 50%;
+  /*height: 100%;*/
+}
+
+#search{
+  height: 30px;
+  width: 100%;
+  background: rgb(191,66,66);
+  clear: both;
+  display: none;
+}
+
+footer{
+  clear: both;
+  border-top: 1px solid #fff;
+}
+
+footer ul{
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+footer li{
+  display: inline-block;
+}
+
+footer a{
+  font-size: .6em;
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;;
+  color: #fff;
+  font-weight:100;
+}
